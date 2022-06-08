@@ -10,6 +10,6 @@ month = int(input("Input month: "))
 year = 2022
 date = datetime(day=day, month=month, year=year)
 
-due_date = date + timedelta(days=45)
+due_date = date + timedelta(days=21)
 
 print(f"DUE DATE IS: {due_date.day}/{due_date.month}/{due_date.year} -/{tag_name}")
